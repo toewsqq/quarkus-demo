@@ -6,6 +6,6 @@ import javax.enterprise.context.ApplicationScoped;
 
 
 @ApplicationScoped
-public class StudentRepository implements PanacheRepository {
+public class StudentRepository implements PanacheRepository<Students> {
 
 }
